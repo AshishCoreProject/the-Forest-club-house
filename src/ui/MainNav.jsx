@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import {
+  HiOutlineCalculator,
   HiOutlineCalendar,
   HiOutlineCog,
   HiOutlineHome,
@@ -69,7 +70,7 @@ function MainNav() {
         </li>
         <li>
           <StyledNavLink to="cabins">
-            <HiOutlineHome />
+            <HiOutlineCalculator />
             <span>cabins</span>
           </StyledNavLink>
         </li>
@@ -81,7 +82,7 @@ function MainNav() {
         </li>
         <li>
           <StyledNavLink to="settings">
-            <HiOutlineCalendar />
+            <HiOutlineCog />
             <span>Setting</span>
           </StyledNavLink>
         </li>
