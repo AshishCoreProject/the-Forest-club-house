@@ -31,7 +31,7 @@ const TableHeader = styled.header`
 // querkey : //This will uniquely identify the data here
 function CabinTable() {
   const { isLoading, data: cabins } = useQuery({
-    queryKey: ["cabin"],
+    queryKey: ["cabins"],
     queryFn: getCabins,
   });
   if (isLoading) return <Spinner />;
