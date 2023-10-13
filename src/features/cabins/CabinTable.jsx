@@ -30,7 +30,7 @@ const TableHeader = styled.header`
 
 // querkey : //This will uniquely identify the data here
 function CabinTable() {
-  const { isLoading, cabin, error } = useCabins();
+  const { isLoading, cabins } = useCabins();
   if (isLoading) return <Spinner />;
 
   return (
