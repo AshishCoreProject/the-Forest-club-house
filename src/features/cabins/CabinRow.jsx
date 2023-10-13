@@ -63,7 +63,7 @@ function CabinRow({ cabin }) {
   } = cabin;
 
   function handleDuplicate() {
-    ({
+    createCabin({
       name: `copy of ${name}`,
       maxCapacity,
       regularPrice,
